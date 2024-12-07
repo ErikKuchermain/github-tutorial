@@ -140,10 +140,12 @@ footer {
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
+    margin-left: 10vw;
 }
 .logo-footer a span {
     color: #2196F3;
 }
 footer address {
     font-style: normal;
+    margin-right: 10vw;
 }
