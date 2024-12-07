@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+.logo a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10vw;
+}
+.logo a span {
+    color: #2196F3;
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 10vw;
+}
+.contact a {
+    text-decoration: none;
+    color: #2196F3;
+    font-size: 1rem;
+}
+.contact a:hover {
+    text-decoration: underline;
+}
+.contact span {
+    font-size: 1rem;
+    color: #333;
+}
+main {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+}
+main button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+main button:hover {
+    transition: 0.2s;
+    background-color: darkblue;
+}
+section {
+    padding: 40px 20px;
+}
+.text-main{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 8%;
+
+}
+.text-middle{
+    width: 20vw;    
+}
+.article{
+    font-size: 1rem;
+    font-weight: bold;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team {
+    background-color: #F5F4FA;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 12vw;
+    list-style: none;
+    padding: 0;
+    margin-left: 2vw;
+    margin-right: 9vw;
+
+}
+ul li {
+    max-width: 20vw;
+    text-align: center;
+}
+.fotos{
+    gap: 9vw;
+    max-width: 87vw;
+}
+.team-member {
+    text-align: center;
+    justify-content: center;
+}
+.team-member p{
+    font-weight: bold;
+    margin-left: 50%;
+}
+
+img {
+    width: 150%;
+    height: auto;
+    border-radius: 5px;
+}
+footer {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+}
+.logo-footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.logo-footer a span {
+    color: #2196F3;
+}
+footer address {
+    font-style: normal;
+}
